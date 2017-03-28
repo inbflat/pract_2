@@ -1,0 +1,146 @@
+﻿body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    z-index: 5;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+}
+
+nav {
+    padding-right: 25px;
+}
+
+    nav a {
+        font-family: Helvetica;
+        font-size: 22px;
+        color: seashell;
+        text-decoration: underline;
+        padding: 0 10px;
+    }
+
+header img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+.container {
+    position: relative;
+    top: 69px;
+}
+
+#section_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sec_1_txt {
+    width: 100%;
+    background-color: black;
+}
+
+#section_2 {
+    margin: 0 auto;
+    width: 1000px;
+    padding-top: 50px;
+}
+
+.sec_2_txt {
+    text-align: center;
+}
+
+.pics_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    .pics_1 img {
+        height: 200px;
+    }
+
+.pics_1_txt {
+    display: flex;
+    justify-content: center;
+}
+
+.row_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    .row_1 img {
+        height: 200px;
+    }
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.row_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+    .row_2 img {
+        height: 200px;
+        padding: 0 25px;
+    }
+
+#section_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/img-locations-background.jpg);
+    height: 570px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#locations h2 {
+    position: relative;
+    top: 175px;
+}
+
+.boxes {
+    display: flex;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    margin: 20px;
+}
+
+#contact {
+    height: 200px;
+}
+
+footer {
+    margin-left: 20px;
+    text-align: left;
+}
